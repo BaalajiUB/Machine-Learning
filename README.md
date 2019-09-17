@@ -7,7 +7,7 @@ The aim of the project is to use machine learning approach to learn to assign ra
 The aim of the project is to use machine learning approaches to determine the given 2 handwriting samples belong to the same writer or not. For this, ”AND” images samples extracted from CEDAR Letter data set (both human observed data and GSC data) is used. 
 3 machine learning approaches linear regression ,logistic regression and neural network are used for this case. Comparing all the models, it is observed that, neural network has maximum accuracy followed by logistic regression and linear regression.
 
-### Classification
+#### Classification
 The aim of the project is to use 4 machine learning methods multivariate logistic regression, neural network, SVM and Random forest for classification of images into digits that they represent. Then the ensemble of the prediction from the 4 models are used as the final decision. Data sets used are MNIST (training and validation) and USPS (testing).
 The 4 classification models are implemented and also the ensemble of them is implemented with accuracy of 0.9021 on the MNIST data set and 0.31 on USPS test data set. 
 It answers the NO FREE LUNCH theorem as the model built for MNIST is not efficient on USPS data set.
